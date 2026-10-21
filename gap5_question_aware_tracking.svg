@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+<title id="title">Gap 5 | Where should tracking computation be allocated?</title><desc id="desc">A hypothetical shell game contains B/C and A/B crossings. Both may affect tracking; question risk may differ but can propagate through later associations. Budget allocation is a hypothesis, not a validated policy.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 1 L8 5 L0 9" fill="none" stroke="#50647a" stroke-width="2"/></marker></defs>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#172b40} .note{fill:#50647a} .hyp{stroke-dasharray:7 5}</style>
+<rect width="1400" height="900" rx="18" fill="#ffffff"/>
+<text x="40" y="48" font-size="30" text-anchor="start" style="fill:#172b40" font-weight="700">
+<tspan x="40" dy="0">Gap 5 | Where should tracking computation be allocated?</tspan>
+</text>
+<text x="40" y="80" font-size="18" text-anchor="start" style="fill:#50647a">
+<tspan x="40" dy="0">Conceptual Illustration / Not Experimental Data</tspan>
+</text>
+<rect x="40" y="107" width="1320" height="71" rx="14" fill="#f6f8fb" stroke="#d6e0ea" stroke-width="2"/>
+<text x="65" y="137" font-size="24" text-anchor="start" style="fill:#172b40" font-weight="700">
+<tspan x="65" dy="0">Question: Which cup contains the hidden object at the end?</tspan>
+</text>
+<text x="65" y="162" font-size="17" text-anchor="start" style="fill:#50647a">
+<tspan x="65" dy="0">A initially contains the target. Labels denote conceptual identities, not guaranteed tracker outputs.</tspan>
+</text>
+<text x="205" y="221" font-size="20" text-anchor="middle" style="fill:#172b40" font-weight="700">
+<tspan x="205" dy="0">Initial state</tspan>
+</text>
+<path d="M94 255 L86 314 Q120 325 154 314 L146 255 Z" fill="#ffffff" stroke="#9a5a0b" stroke-width="3"/>
+<ellipse cx="120" cy="255" rx="26" ry="7" fill="#f5f8fc" stroke="#9a5a0b" stroke-width="2"/>
+<text x="120" y="294" font-size="24" text-anchor="middle" style="fill:#9a5a0b" font-weight="700">
+<tspan x="120" dy="0">A</tspan>
+</text>
+<circle cx="120" cy="335" r="7" fill="#9a5a0b"/>
+<path d="M179 255 L171 314 Q205 325 239 314 L231 255 Z" fill="#ffffff" stroke="#246aaf" stroke-width="3"/>
+<ellipse cx="205" cy="255" rx="26" ry="7" fill="#f5f8fc" stroke="#246aaf" stroke-width="2"/>
+<text x="205" y="294" font-size="24" text-anchor="middle" style="fill:#246aaf" font-weight="700">
+<tspan x="205" dy="0">B</tspan>
+</text>
+<path d="M264 255 L256 314 Q290 325 324 314 L316 255 Z" fill="#ffffff" stroke="#7550a0" stroke-width="3"/>
+<ellipse cx="290" cy="255" rx="26" ry="7" fill="#f5f8fc" stroke="#7550a0" stroke-width="2"/>
+<text x="290" y="294" font-size="24" text-anchor="middle" style="fill:#7550a0" font-weight="700">
+<tspan x="290" dy="0">C</tspan>
+</text>
+<text x="700" y="221" font-size="20" text-anchor="middle" style="fill:#172b40" font-weight="700">
+<tspan x="700" dy="0">After event 1</tspan>
+</text>
+<path d="M589 255 L581 314 Q615 325 649 314 L641 255 Z" fill="#ffffff" stroke="#9a5a0b" stroke-width="3"/>
+<ellipse cx="615" cy="255" rx="26" ry="7" fill="#f5f8fc" stroke="#9a5a0b" stroke-width="2"/>
+<text x="615" y="294" font-size="24" text-anchor="middle" style="fill:#9a5a0b" font-weight="700">
+<tspan x="615" dy="0">A</tspan>
+</text>
+<path d="M674 255 L666 314 Q700 325 734 314 L726 255 Z" fill="#ffffff" stroke="#7550a0" stroke-width="3"/>
+<ellipse cx="700" cy="255" rx="26" ry="7" fill="#f5f8fc" stroke="#7550a0" stroke-width="2"/>
+<text x="700" y="294" font-size="24" text-anchor="middle" style="fill:#7550a0" font-weight="700">
+<tspan x="700" dy="0">C</tspan>
+</text>
+<path d="M759 255 L751 314 Q785 325 819 314 L811 255 Z" fill="#ffffff" stroke="#246aaf" stroke-width="3"/>
+<ellipse cx="785" cy="255" rx="26" ry="7" fill="#f5f8fc" stroke="#246aaf" stroke-width="2"/>
+<text x="785" y="294" font-size="24" text-anchor="middle" style="fill:#246aaf" font-weight="700">
+<tspan x="785" dy="0">B</tspan>
+</text>
+<text x="1195" y="221" font-size="20" text-anchor="middle" style="fill:#172b40" font-weight="700">
+<tspan x="1195" dy="0">After event 2</tspan>
+</text>
+<path d="M1084 255 L1076 314 Q1110 325 1144 314 L1136 255 Z" fill="#ffffff" stroke="#246aaf" stroke-width="3"/>
+<ellipse cx="1110" cy="255" rx="26" ry="7" fill="#f5f8fc" stroke="#246aaf" stroke-width="2"/>
+<text x="1110" y="294" font-size="24" text-anchor="middle" style="fill:#246aaf" font-weight="700">
+<tspan x="1110" dy="0">B</tspan>
+</text>
+<path d="M1169 255 L1161 314 Q1195 325 1229 314 L1221 255 Z" fill="#ffffff" stroke="#7550a0" stroke-width="3"/>
+<ellipse cx="1195" cy="255" rx="26" ry="7" fill="#f5f8fc" stroke="#7550a0" stroke-width="2"/>
+<text x="1195" y="294" font-size="24" text-anchor="middle" style="fill:#7550a0" font-weight="700">
+<tspan x="1195" dy="0">C</tspan>
+</text>
+<path d="M1254 255 L1246 314 Q1280 325 1314 314 L1306 255 Z" fill="#ffffff" stroke="#9a5a0b" stroke-width="3"/>
+<ellipse cx="1280" cy="255" rx="26" ry="7" fill="#f5f8fc" stroke="#9a5a0b" stroke-width="2"/>
+<text x="1280" y="294" font-size="24" text-anchor="middle" style="fill:#9a5a0b" font-weight="700">
+<tspan x="1280" dy="0">A</tspan>
+</text>
+<path d="M50 373 H1350" fill="none" stroke="#50647a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="1340" y="403" font-size="17" text-anchor="end" style="fill:#50647a">
+<tspan x="1340" dy="0">video time</tspan>
+</text>
+<rect x="326" y="235" width="248" height="100" rx="10" fill="#f9fbfd" stroke="#d6e0ea" stroke-width="2"/>
+<text x="450" y="257" font-size="17" text-anchor="middle" style="fill:#172b40" font-weight="700">
+<tspan x="450" dy="0">Event 1: B / C crossing</tspan>
+</text>
+<path d="M372 277 C425 277 475 316 528 316" fill="none" stroke="#246aaf" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M372 316 C425 316 475 277 528 277" fill="none" stroke="#7550a0" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="450" cy="373" r="6" fill="#172b40"/>
+<rect x="821" y="235" width="248" height="100" rx="10" fill="#f9fbfd" stroke="#d6e0ea" stroke-width="2"/>
+<text x="945" y="257" font-size="17" text-anchor="middle" style="fill:#172b40" font-weight="700">
+<tspan x="945" dy="0">Event 2: A / B crossing</tspan>
+</text>
+<path d="M867 277 C920 277 970 316 1023 316" fill="none" stroke="#246aaf" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M867 316 C920 316 970 277 1023 277" fill="none" stroke="#9a5a0b" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="945" cy="373" r="6" fill="#172b40"/>
+<text x="55" y="443" font-size="23" text-anchor="start" style="fill:#172b40" font-weight="700">
+<tspan x="55" dy="0">Signals and possible allocation</tspan>
+</text>
+<text x="553" y="443" font-size="20" text-anchor="middle" style="fill:#50647a" font-weight="700">
+<tspan x="553" dy="0">B / C event</tspan>
+</text>
+<text x="1053" y="443" font-size="20" text-anchor="middle" style="fill:#50647a" font-weight="700">
+<tspan x="1053" dy="0">A / B event</tspan>
+</text>
+<text x="55" y="506" font-size="20" text-anchor="start" style="fill:#172b40" font-weight="700">
+<tspan x="55" dy="0">Global tracking</tspan>
+<tspan x="55" dy="27.0">uncertainty</tspan>
+</text>
+<rect x="350" y="475" width="405" height="68" rx="14" fill="#f2f7fd" stroke="#246aaf" stroke-width="2"/>
+<text x="552.5" y="515.08" font-size="19" text-anchor="middle" style="fill:#246aaf" font-weight="700">
+<tspan x="552.5" dy="0">Ambiguous association</tspan>
+</text>
+<rect x="850" y="475" width="405" height="68" rx="14" fill="#f2f7fd" stroke="#246aaf" stroke-width="2"/>
+<text x="1052.5" y="515.08" font-size="19" text-anchor="middle" style="fill:#246aaf" font-weight="700">
+<tspan x="1052.5" dy="0">Ambiguous association</tspan>
+</text>
+<text x="55" y="596" font-size="20" text-anchor="start" style="fill:#172b40" font-weight="700">
+<tspan x="55" dy="0">Question-specific</tspan>
+<tspan x="55" dy="27.0">relevance / decision risk</tspan>
+</text>
+<rect x="350" y="565" width="405" height="68" rx="14" fill="#fff8ed" stroke="#9a5a0b" stroke-width="2"/>
+<text x="552.5" y="592.35" font-size="19" text-anchor="middle" style="fill:#9a5a0b" font-weight="700">
+<tspan x="552.5" dy="0">Possibly indirect</tspan>
+<tspan x="552.5" dy="25.650000000000002">can propagate forward</tspan>
+</text>
+<rect x="850" y="565" width="405" height="68" rx="14" fill="#fff8ed" stroke="#9a5a0b" stroke-width="2"/>
+<text x="1052.5" y="592.35" font-size="19" text-anchor="middle" style="fill:#9a5a0b" font-weight="700">
+<tspan x="1052.5" dy="0">Potentially direct</tspan>
+<tspan x="1052.5" dy="25.650000000000002">not automatically recoverable</tspan>
+</text>
+<text x="55" y="686" font-size="20" text-anchor="start" style="fill:#172b40" font-weight="700">
+<tspan x="55" dy="0">Expensive tracking</tspan>
+<tspan x="55" dy="27.0">budget allocation</tspan>
+</text>
+<rect x="350" y="655" width="405" height="68" rx="14" fill="#fff8ed" stroke="#9a5a0b" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="552.5" y="695.08" font-size="19" text-anchor="middle" style="fill:#9a5a0b" font-weight="700">
+<tspan x="552.5" dy="0">Allocate? Test against SMP</tspan>
+</text>
+<rect x="850" y="655" width="405" height="68" rx="14" fill="#fff8ed" stroke="#9a5a0b" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="1052.5" y="695.08" font-size="19" text-anchor="middle" style="fill:#9a5a0b" font-weight="700">
+<tspan x="1052.5" dy="0">Allocate? Test against SMP</tspan>
+</text>
+<rect x="40" y="757" width="1320" height="100" rx="14" fill="#fff8ed" stroke="#e0bc83" stroke-width="2"/>
+<text x="65" y="790" font-size="20" text-anchor="start" style="fill:#172b40">
+<tspan x="65" dy="0">Tracking uncertainty is not identical to answer risk.</tspan>
+<tspan x="65" dy="27.0">B/C errors may affect A later. No event is declared safe to skip; no question-aware gain is established.</tspan>
+</text>
+</svg>

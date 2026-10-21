@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="800" viewBox="0 0 1400 800" role="img" aria-labelledby="title desc">
+<title id="title">Two research questions | One downstream decision objective</title><desc id="desc">Gap 1 investigates which evidence source to trust; Gap 5 investigates where to allocate computation. Both require controlled evidence and comparisons with strong simple baselines. Neither hypothesis has been validated.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 1 L8 5 L0 9" fill="none" stroke="#50647a" stroke-width="2"/></marker></defs>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#172b40} .note{fill:#50647a} .hyp{stroke-dasharray:7 5}</style>
+<rect width="1400" height="800" rx="18" fill="#ffffff"/>
+<text x="40" y="48" font-size="30" text-anchor="start" style="fill:#172b40" font-weight="700">
+<tspan x="40" dy="0">Two research questions | One downstream decision objective</tspan>
+</text>
+<text x="40" y="80" font-size="18" text-anchor="start" style="fill:#50647a">
+<tspan x="40" dy="0">Conceptual Illustration / Not Experimental Data</tspan>
+</text>
+<rect x="45" y="120" width="630" height="345" rx="14" fill="#f8fafc" stroke="#d6e0ea" stroke-width="2"/>
+<text x="70" y="161" font-size="25" text-anchor="start" style="fill:#246aaf" font-weight="700">
+<tspan x="70" dy="0">GAP 1</tspan>
+</text>
+<text x="70" y="208" font-size="23" text-anchor="start" style="fill:#172b40" font-weight="700">
+<tspan x="70" dy="0">Which evidence source should be trusted?</tspan>
+</text>
+<text x="70" y="266" font-size="21" text-anchor="start" style="fill:#50647a">
+<tspan x="70" dy="0">VLM and estimated geometry</tspan>
+<tspan x="70" dy="28.35">Observable reliability + task margin</tspan>
+</text>
+<path d="M70 322 H650" fill="none" stroke="#d6e0ea" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="70" y="363" font-size="19" text-anchor="start" style="fill:#172b40">
+<tspan x="70" dy="0">Necessary: real paired predictions</tspan>
+<tspan x="70" dy="25.650000000000002">Control: same frames; dev-locked policy</tspan>
+</text>
+<text x="70" y="439" font-size="18" text-anchor="start" style="fill:#9a5a0b" font-weight="700">
+<tspan x="70" dy="0">Conditional hypothesis; novelty not established</tspan>
+</text>
+<rect x="725" y="120" width="630" height="345" rx="14" fill="#f8fafc" stroke="#d6e0ea" stroke-width="2"/>
+<text x="750" y="161" font-size="25" text-anchor="start" style="fill:#087d79" font-weight="700">
+<tspan x="750" dy="0">GAP 5</tspan>
+</text>
+<text x="750" y="208" font-size="23" text-anchor="start" style="fill:#172b40" font-weight="700">
+<tspan x="750" dy="0">Where should computation be allocated?</tspan>
+</text>
+<text x="750" y="266" font-size="21" text-anchor="start" style="fill:#50647a">
+<tspan x="750" dy="0">Tracking uncertainty and query risk</tspan>
+<tspan x="750" dy="28.35">Expected answer value per computation</tspan>
+</text>
+<path d="M750 322 H1330" fill="none" stroke="#d6e0ea" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="750" y="363" font-size="19" text-anchor="start" style="fill:#172b40">
+<tspan x="750" dy="0">Necessary: matched questions and real cost</tspan>
+<tspan x="750" dy="25.650000000000002">Control: same tracker; full SMP baseline</tspan>
+</text>
+<text x="750" y="439" font-size="18" text-anchor="start" style="fill:#9a5a0b" font-weight="700">
+<tspan x="750" dy="0">Conditional hypothesis; novelty not established</tspan>
+</text>
+<path d="M360 465 V505 H700 V535" fill="none" stroke="#50647a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M1040 465 V505 H700 V535" fill="none" stroke="#50647a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="385" y="535" width="630" height="94" rx="14" fill="#eef4fa" stroke="#172b40" stroke-width="2"/>
+<text x="700.0" y="573.95" font-size="23" text-anchor="middle" style="fill:#172b40" font-weight="700">
+<tspan x="700.0" dy="0">Downstream Decision Quality</tspan>
+<tspan x="700.0" dy="31.05">under reliable evidence and real compute constraints</tspan>
+</text>
+<text x="700" y="671" font-size="21" text-anchor="middle" style="fill:#50647a">
+<tspan x="700" dy="0">Existing foundations: statistical decision theory, VOI and selective computation</tspan>
+</text>
+<rect x="45" y="704" width="1310" height="59" rx="14" fill="#fff8ed" stroke="#e0bc83" stroke-width="2"/>
+<text x="700" y="740" font-size="21" text-anchor="middle" style="fill:#172b40" font-weight="700">
+<tspan x="700" dy="0">Observed failure  →  Mechanism hypothesis  →  Minimal intervention  →  Controlled evidence</tspan>
+</text>
+</svg>

@@ -1,12 +1,11 @@
 # Visual Reasoning 与 Agentic Visual Reasoning：技术脉络、研究现状与潜在切入点
 
 **Research Landscape & Discussion Notes | 2026 年 10 月 21 日**  
-**用途：**与教授讨论研究方向及小规模可执行课题。本文是文献调研和问题梳理，不是研究 Proposal，也不宣称下列候选问题已具备确定的新颖性。  
 **范围：**Vision-Language Models (VLMs)、Visual Reasoning、视觉工具使用、GUI / Video / Embodied Agents；重点关注不需要训练大型基础模型的研究范式。
 
 ---
 
-## Executive Summary（两分钟版）
+## Executive Summary
 
 **核心认识：Visual Reasoning 研究“如何根据视觉证据得出正确结论”；Agent 进一步研究“为了完成任务，应该获取什么信息、采取什么行动，并如何根据反馈调整”。** 二者结合之后，模型不再只看一次图片并给出答案，而可能主动放大图片、检索视频帧、调用几何工具、维护对象状态，甚至操作 GUI 或物理环境。
 

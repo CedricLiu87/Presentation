@@ -1,6 +1,6 @@
 # PHYWM 后续研究：阶段性调研、实验验证与选题判断
 
-> **研究进展汇报（供 Prof. Yanhai Xiong 讨论）**  
+> **研究进展汇报**  
 > **日期：2026 年 11 月 4 日**  
 > **研究主线：** 从 *Where Explicit Physics Pays Off in Manipulation World Models*（PHYWM）出发，探索具有独立科研价值的后续问题；同步考察 A / B / C 三个研究领域。  
 > **当前状态：** 文献审查、已完成实验的机制诊断与 Novelty Check；**尚未确立可以直接立项的新算法或独立论文贡献**。
